@@ -46,7 +46,7 @@ const TableContext = (props) => {
   const [startDate, setStartDate] = useState("");
   const [selectedOption, setSelectedOption] = useState("To Do"); //selected option state for main task
   const [expandedTaskId, setExpandedTaskId] = useState(null);
-  console.log("state", state);
+  // console.log("state", state);
 
   // subtask
   const [selectedItemSubtask, setSelectedItemSubtask] = useState({
@@ -56,7 +56,7 @@ const TableContext = (props) => {
 
 
   const [isToastShown, setIsToastShown] = useState(false);
-  console.log("selecteditemsubtask", selectedItemSubtask);
+  // console.log("selecteditemsubtask", selectedItemSubtask);
   const [selectedOptionSubtask, setSelectedOptionSubtask] = useState("To Do"); //selected option state for subtask
   const [isDropdownOpenSubtask, setIsDropdownOpenSubtask] = useState(false); //handle drop down open and close for subtask status
 
