@@ -1,0 +1,160 @@
+.logo-web-sidebar-container {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.CircularLogo {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(
+    to right,
+    var(--bgGreyLight) 0%,
+    var(--bgColor) 75%
+  );
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  z-index: 4;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--bgColor);
+  box-shadow: 10px 5px 5px 4px var(--bgshadow);
+  transition: 1s ease-in;
+}
+.circular-web-logo {
+  height: 75%;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  background: url(/src/Assets/Images/webreatelogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sidebar {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bgColor);
+  overflow: hidden;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+  width: 100%;
+  height: 55%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sidebar nav ul {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sidebar nav ul li {
+  width: 90%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar nav ul li a {
+  display: flex;
+  text-align: left;
+  height: 100%;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  color: var(--bgwhite);
+  overflow: hidden;
+}
+
+.sidebar nav ul li a span:nth-child(1) {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar nav ul li a span:nth-child(2) {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.active {
+  background: linear-gradient(
+    to right,
+    var(--bgthemecolor) 50%,
+    var(--bgtrans) 50%
+  );
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-size: 200% 100%;
+  background-position: left;
+  animation: backactive 0.5s ease-in;
+}
+
+@keyframes backactive {
+  0% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+.logout-container {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout-container a {
+  width: 45%;
+  background: var(--bgColor2);
+  cursor: pointer;
+  border-radius: 10px;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout-container a button {
+  background: var(--bgtrans);
+  border: 0;
+}
+
+.punch-container {
+  height: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.punch-container .punch-btns {
+  width: 30%;
+}
+
+.punch-container span {
+  color: var(--bgwhite);
+  font-size: 90%;
+}

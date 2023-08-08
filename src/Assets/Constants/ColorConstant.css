@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgColor: #000000;
+  --bgGreyLight: #595353;
+  --bgColortrans: #0000009a;
+  --bgColor2: #171717;
+  --bgLogin: #7f4826;
+  --bgbtn: #1d1d1d1e;
+  --bgbtnblack: #1d1d1d;
+  --bgbtn2: #675a5a;
+  --bgshadow: #050505;
+  --bglog: #343434;
+  --bgwhite: #ffffff;
+  --bgwhiteopac: #ffffff3f;
+  --bgtrans: transparent;
+  --bgthemecolor: #ff8833;
+  --bgtextgradient: -webkit-linear-gradient(#eee, #333);
+  --bgline: #484646;
+  --bgtablecolor: #131313;
+  --bgnoticecolor: #383333;
+  --bgEditPopuptbtn: #1a1818;
+  --bgprogress: #2666c5;
+  --bgchanges: #fb0000;
+  --bgcompleted: #00fb28;
+  --bgleave: #0f20c2;
+}
